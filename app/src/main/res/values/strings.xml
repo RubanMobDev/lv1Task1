@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">lv1Task1</string>
+    <string name="description">Guess if the next roll will be higher, equal to, or lower than the last.</string>
+    <string name="higherBtnDesc">Higher</string>
+    <string name="equalBtnDesc">Equal</string>
+    <string name="lowerBtnDesc">Lower</string>
+    <string name="lastThrowTxt">Last throw:</string>
+</resources>
