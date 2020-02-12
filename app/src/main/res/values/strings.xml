@@ -5,4 +5,6 @@
     <string name="equalBtnDesc">Equal</string>
     <string name="lowerBtnDesc">Lower</string>
     <string name="lastThrowTxt">Last throw:</string>
+    <string name="correct">Correct! :)</string>
+    <string name="incorrect">Incorrect! :(</string>
 </resources>

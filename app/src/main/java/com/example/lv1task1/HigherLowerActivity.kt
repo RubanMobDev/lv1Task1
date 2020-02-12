@@ -2,6 +2,7 @@ package com.example.lv1task1
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_higher_lower.*
 
 class HigherLowerActivity : AppCompatActivity() {
@@ -98,12 +99,12 @@ class HigherLowerActivity : AppCompatActivity() {
 
     private fun onAnswerCorrect()
     {
-        //Implement this function yourself!
+        Toast.makeText(this, getString(R.string.correct), Toast.LENGTH_SHORT).show()
     }
 
     private fun onAnswerIncorrect()
     {
-        //Implement this function yourself!
+        Toast.makeText(this, getString(R.string.incorrect), Toast.LENGTH_SHORT).show()
     }
 
 
